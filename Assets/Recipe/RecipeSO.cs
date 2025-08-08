@@ -6,6 +6,5 @@ public class RecipeSO : ScriptableObject
 {
     public string recipeName;
     public Sprite resultIcon;
-    public int value;
     public List<IngredientSO> requiredIngredients;
 }
