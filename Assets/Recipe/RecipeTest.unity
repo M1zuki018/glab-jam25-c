@@ -498,7 +498,7 @@ Transform:
   m_GameObject: {fileID: 940089491}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.26, y: 0, z: 0}
+  m_LocalPosition: {x: -0.26, y: 0, z: -1}
   m_LocalScale: {x: 0.4, y: 0.9, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -559,6 +559,57 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1774045592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1774045594}
+  - component: {fileID: 1774045593}
+  m_Layer: 0
+  m_Name: RecipeManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1774045593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774045592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 233d985cd80f0bc4ab68d5d3ecfb0de6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allRecipes:
+  - {fileID: 11400000, guid: c2ed658ac579868498ac8ac06416e12d, type: 2}
+  - {fileID: 11400000, guid: 95e8afd69040dac4684f19bc8c25bb95, type: 2}
+  - {fileID: 11400000, guid: 7258144333b1ef946a24b199465588cd, type: 2}
+  - {fileID: 11400000, guid: 0bd060337174c2c4abb15de85708658a, type: 2}
+  - {fileID: 11400000, guid: 50a93d78f3643a6448d4fd406bcdf90e, type: 2}
+  - {fileID: 11400000, guid: a36c2c618ba66e64dbe35cb365587f11, type: 2}
+--- !u!4 &1774045594
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1774045592}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.7095661, y: 0.40178907, z: -0.023780927}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2077477373
 GameObject:
   m_ObjectHideFlags: 0
@@ -575,7 +626,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &2077477374
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -744,3 +795,4 @@ SceneRoots:
   m_Roots:
   - {fileID: 714523706}
   - {fileID: 2077477375}
+  - {fileID: 1774045594}

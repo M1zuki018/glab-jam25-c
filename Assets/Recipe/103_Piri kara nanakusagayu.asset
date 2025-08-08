@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb47c9440c35c446a17d60310d039c3, type: 3}
+  m_Name: 103_Piri kara nanakusagayu
+  m_EditorClassIdentifier: 
+  recipeName: "\u30D4\u30EA\u8F9B\u4E03\u8349\u7CA5"
+  resultIcon: {fileID: 0}
+  ID: 103
+  sellingPrice: 1500
+  requiredIngredients:
+  - {fileID: 11400000, guid: e56b8f981a612d349a0169fa9a0455ca, type: 2}
+  - {fileID: 11400000, guid: b1dae06ab831ae249a7d9082b40fcaec, type: 2}
+  - {fileID: 11400000, guid: 9e573ec676677c14ca6215bed9a0af79, type: 2}
+  - {fileID: 11400000, guid: 6a1d522165578424a8af984119ef7f33, type: 2}
+  - {fileID: 11400000, guid: d8fe2c1e9637d004a8c59515874df029, type: 2}
+  - {fileID: 11400000, guid: cbd5fd25c6e21334cb6e7cd163e17c3b, type: 2}
+  - {fileID: 11400000, guid: fe2465f8e5bd0684d8ccec7ea283cb3b, type: 2}
+  - {fileID: 11400000, guid: e0af0f55b01c2ba4cb9bd146d04155f1, type: 2}

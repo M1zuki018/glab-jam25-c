@@ -9,10 +9,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a27fbb5534e3c8e478d864ead323ee3c, type: 3}
-  m_Name: Nazuna
+  m_Script: {fileID: 11500000, guid: ceb47c9440c35c446a17d60310d039c3, type: 3}
+  m_Name: "106_Z\u014Dsui"
   m_EditorClassIdentifier: 
-  ingredientName: "\u30CA\u30BA\u30CA"
-  icon: {fileID: 0}
-  price: 100
-  ID: 002
+  recipeName: "\u96D1\u708A"
+  resultIcon: {fileID: 0}
+  ID: 106
+  sellingPrice: 700
+  isFallbackRecipe: 1
+  requiredIngredients: []
